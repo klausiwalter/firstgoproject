@@ -7,8 +7,11 @@ import (
 
 func main() {
 
-    var randomInteger = rand.Intn(100)
+    fmt.Println(generateRandomNumber(100))
 
-    fmt.Println(randomInteger)
+}
 
+func generateRandomNumber(max int) int {
+
+    return rand.Intn(max)
 }
