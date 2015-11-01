@@ -6,7 +6,10 @@ import (
 
 func main() {
 
-    fmt.Println(increment(1))
+    var lowValue, highValue int = 1, 1000
+
+    fmt.Println(increment(lowValue))
+    fmt.Println(increment(highValue))
 
 }
 
