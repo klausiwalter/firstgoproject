@@ -6,13 +6,13 @@ import (
 
 func main() {
 
-    a, b := swap(1, 2)
-
-    fmt.Println(a, b)
+    fmt.Println(increment(1))
 
 }
 
-func swap(x, y int) (int, int) {
+func increment(input int) (output int) {
 
-    return y, x
+    output = input + 1
+
+    return
 }
