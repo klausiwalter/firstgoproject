@@ -2,16 +2,17 @@ package main
 
 import (
     "fmt"
-    "math/rand"
 )
 
 func main() {
 
-    fmt.Println(generateRandomNumber(100))
+    a, b := swap(1, 2)
+
+    fmt.Println(a, b)
 
 }
 
-func generateRandomNumber(max int) int {
+func swap(x, y int) (int, int) {
 
-    return rand.Intn(max)
+    return y, x
 }
