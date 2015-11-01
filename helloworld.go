@@ -6,9 +6,9 @@ import (
 
 func main() {
 
-    var f float32 = 2.1
+    const someConstant = 2
 
-    fmt.Println(int(f))
+    fmt.Println(someConstant)
 
 
 }
