@@ -13,6 +13,14 @@ func main() {
     fmt.Println(increment(lowValue))
     fmt.Println(increment(highValue))
 
+    var zeroInteger int
+    var zeroString string
+    var zeroBoolean bool
+
+    fmt.Println(zeroString)
+    fmt.Println(zeroInteger)
+    fmt.Println(zeroBoolean)
+
 }
 
 func increment(input int) (output int) {
