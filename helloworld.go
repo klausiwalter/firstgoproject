@@ -6,7 +6,9 @@ import (
 
 func main() {
 
-    var lowValue, highValue int = 1, 1000
+    var lowValue int = 1
+
+    highValue := 1000
 
     fmt.Println(increment(lowValue))
     fmt.Println(increment(highValue))
