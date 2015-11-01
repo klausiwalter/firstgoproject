@@ -6,26 +6,9 @@ import (
 
 func main() {
 
-    var lowValue int = 1
+    var f float32 = 2.1
 
-    highValue := 1000
+    fmt.Println(int(f))
 
-    fmt.Println(increment(lowValue))
-    fmt.Println(increment(highValue))
 
-    var zeroInteger int
-    var zeroString string
-    var zeroBoolean bool
-
-    fmt.Println(zeroString)
-    fmt.Println(zeroInteger)
-    fmt.Println(zeroBoolean)
-
-}
-
-func increment(input int) (output int) {
-
-    output = input + 1
-
-    return
 }
